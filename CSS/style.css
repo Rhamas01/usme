@@ -1,0 +1,165 @@
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html { height: 100%; }
+body {
+	background-color: #ffffff;
+	background: url(../img/bg1.jpg) no-repeat center center fixed;
+	margin: 0px;
+	padding: 0px;
+	
+	 -webkit-transition: 0.75s; 
+       -moz-transition: 0.75s;  
+         -ms-transition: 0.75s; 
+            -o-transition: 0.75s; 
+			
+			 -webkit-font-smoothing: antialiased;
+    overflow-y: scroll;
+    overflow-x: hidden;
+	
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.input-group {
+	padding: 5px;
+}
+
+
+td{
+
+	color: #FFF;
+}
+th{
+
+	color: #FFC312;
+}
+.container{
+height:100%;
+align-content: center;
+}
+
+.card{
+height: auto;
+margin-top: 50px;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(255, 255, 255, 0.5) !important;
+border-radius: 20px;
+}
+
+.card-header {
+	text-align: center;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: rgb(255, 255, 255);
+background-color:#ED1A3A;
+width: 100%;
+padding: 10px;
+border-radius: 10px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: #FFC312;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+
+.footer {
+	display: block;
+	text-align: center;
+	padding: 10px;
+	
+}
+
+.footer img{
+    width: 250px;
+	margin-top: 250px;
+}
+
+.display-banner{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	color: #70706f;
+	font-size: 20px;
+	
+}
+
+.scriptM{
+	display: none;
+}
+
+.responsive-img{
+	padding: 30px;
+	max-width: 150px;
+	margin-top: 20px;
+}
+
+.icon-user {
+	width: 20px;
+	margin-left: 2px;
+}
+
+.icon-candado {
+	width: 20px;
+	margin-left: 2px;
+}
